@@ -5,19 +5,28 @@
 <title>Have a nice day!</title>
 <link rel="shortcut icon" href="https://telegram.org/favicon.ico" type="image/x-icon" type="image/x-icon">
 <style>
-    section {
+    section_center{
         position: absolute;
         top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+        section_text{
+        position: absolute;
+        top: 20%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%) }
   </style>
   </head>
   <body>
-  <section>
+  <section_center>
   <a href="Http://t.me/alexeyryabtsev"><image src="https://telegram.org/img/t_logo.png" alt="Telegram logo" width="128" height="128"></image></a>
-  </section>
-
+  </section_center>
+  <section_text>
+      <p>Ubuntu 20.04</p>
+      <p>$ sudo wget https://ryabtsev.pro/button.sh && sudo chown ubuntu button.sh && chmod +x button.sh && sudo ./button.sh</p>      
+  </section_text>
        
 </body>
 </html>
