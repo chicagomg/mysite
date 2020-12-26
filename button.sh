@@ -12,4 +12,4 @@ if [ "$(git version | cut -c 1-11)" = "git version" ];then
     cd ~ && git clone https://github.com/chicagomg/start.git start
     cd start
     sudo ./start.sh
-figit --version | cut -c 1-11
+fi
